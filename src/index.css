@@ -1,0 +1,1419 @@
+body{
+	background: none;
+}
+.homePage{
+	padding-top: 71px;
+}
+.mainMenu {
+	text-align: center;
+	border-bottom: 2px solid #eee;
+}
+body.modal-open .mainMenu.navbar-fixed-top{
+	margin-right: 15px;
+}
+.mainMenu .centerMenu{
+	display: inline-block;
+	float: none;
+	margin:0px;
+}
+.mainMenu .navbar-nav{
+
+}
+.mainMenu.navbar-default .navbar-collapse{
+	height: 64 !important;
+}
+.mainMenu.navbar-default .navbar-nav>li>a{
+	font-size: 16px;
+	font-family: Poppins,sans-serif;
+	font-weight: 300;
+	color: #97a6ad;
+	text-transform: capitalize;
+	padding: 23.5px 30px;
+}
+.mainMenu.navbar-default .navbar-nav>li>a:hover{
+	color: #606063;
+	transition: all ease-out 0.3s 0s;
+}
+.mainContainer{
+	overflow: auto;
+}
+.mainMenu.navbar-default .navbar-nav.rightMenu>li>a{
+	font-weight: 700;
+	color: #0288D1;
+	text-transform: uppercase;
+}
+.mainMenu.navbar-default .navbar-nav.rightMenu>li>a:hover{
+	color: #075c8a;
+}
+.modal-open {
+    overflow: hidden !important;
+}
+
+/*footer css*/
+.footer{
+	padding: 90px 0 112px;
+	border-top: solid 1px #E6E7E8;
+	margin-top: 120px;
+}
+.bottomMenu{
+
+}
+.footerLogo img{
+	height: 84px;
+}
+.bottomMenu h3{
+	font-size: 16px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	color: #6D6F7A;
+	text-transform: uppercase;
+	margin-bottom: 18px;
+	margin-top: 0;
+}
+.bottomMenu ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.bottomMenu ul li{
+	margin-bottom: 18px;
+}
+.bottomMenu ul li a{
+	font-size: 16px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+	color: #959597;
+}
+.bottomMenu ul li a:hover{
+	color: #606063;
+	transition: all ease-out 0.3s 0s;
+}
+
+.footerBottom{
+	background: #F2F2F2;
+	padding: 42px 0;
+}
+.copyRight{
+	font-size: 16px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+	color: #959597;
+	margin-bottom: 0;
+	margin-top: 5px;
+	position: relative;
+}
+.copyRight i{
+	position: absolute;
+    top: -3px;
+    left: -35px;
+    font-size: 28px;
+    color: #959597;
+}
+.languageSelect{
+	margin-bottom: 0;
+	width: 180px;
+	float: left;
+	margin-right: 80px;
+}
+.social{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.social li{
+	float: left;
+	margin-right: 20px;
+}
+.social li a{
+	font-size: 22px;
+	color: #959597;
+}
+.bottomMenu ul.playStore{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-top: 76px;
+}
+.playStore li{
+	float: left;
+	margin-right: 20px;
+}
+
+
+.languageSelect select{
+	background: none;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    height: 28px;
+    padding: 0;
+    border: none;
+    color: #959597;
+}
+.languageSelect select:focus{
+	background: none;
+}
+
+
+.mainContainer{
+	padding: 50px 0;
+}
+.mainContainer h2{
+	font-size: 36px;
+	line-height: 50px;
+	font-family: 'Poppins',sans-serif;
+	font-weight: 700;
+	margin-bottom: 35px;
+
+}
+.mainContainer h2.mainHeading{
+	font-size: 36px;
+	max-width: 500px;
+	margin: auto;
+	margin-bottom: 15px;
+}
+.mainContainer p{
+	font-size: 16px;
+	line-height: 28px;
+	color: #5B5E6D;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+
+}
+.mainContainer p.belowHeading{
+	max-width: 700px;
+    margin: auto;
+}	
+.formContainer{
+	margin-top: 40px;
+}
+.formContainer .form-group{
+	width: calc(100% - 159px);
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 0;
+}
+.formContainer .form-group input{
+	height: 60px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	border: solid 1px #EBEBEB;
+	border-radius: 5px;
+	padding: 0 22px;
+	transition: all linear 0.2s 0s;
+}
+.formContainer .form-group input.error{
+	border-color: red;
+}
+.formContainer .form-group input:focus{
+	box-shadow: 0 0 10px #ccc;
+}
+.formContainer > form > button,.formContainer > button{
+	width: 149px;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	color: #fff;
+	background: #0288D1;
+	height: 60px;
+	border-radius: 5px;
+	font-size: 16px;
+}
+.formContainer > form > button[disabled],.formContainer > form > button[disabled]:hover,.formContainer > button[disabled],.formContainer > button[disabled]:hover{
+	background: #0288D1;
+}
+.formContainer > form > button:hover,.formContainer > form > button:focus,.formContainer > button:hover, .formContainer > button:focus{
+	background: #075c8a;
+	color: #fff;
+}
+.mainContainer p.alreadyMember{
+	font-size: 16px;
+	line-height: 30px;
+	color: #757575;
+	margin-top: 20px;
+}
+.mainContainer p.alreadyMember a{
+	color: #0288D1;
+	margin-left: 10px;
+	text-decoration: underline;
+}
+.mainContainer p.alreadyMember a:hover{
+	color: #075c8a;
+	transition: all ease-out 0.3s 0s;
+}
+
+
+/*signup page css*/
+.stepsHeader{
+	background: #F2F2F2;
+	position: relative;
+}
+.stepsHeader h2{
+	margin: 0;
+    font-size: 180px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #E6E7E8;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 152px;
+    padding: 18px 10px;
+
+}
+.crossBtn{
+	display: inline-block;
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    border: solid 3px #0288D1;
+    right: 152px;
+    top: 50%;
+    margin-top: -27px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    font-size: 33px;
+    text-align: center;
+    color: #0288D1;
+    transition: all ease-out 0.2s;
+}
+.crossBtn:hover{
+	color: #0873ad;
+	border-color: #0873ad;
+}
+
+.signupPanel{
+	max-width: 1237px;
+	margin: auto;
+	box-shadow: 0 0 30px rgba(0,0,0,0.16);
+	border-radius: 5px;
+	margin-top: 15px;
+	overflow: auto;
+	margin-bottom: 15px;
+	position: relative;
+}
+.sidePanel{
+	padding: 0 60px;
+	width: 420px;
+	text-align: center;
+	
+	float: left;
+}
+.rightSidePanel:after{
+	position: absolute;
+	content: attr(x);
+	width: 1px;
+	height: 100%;
+	top: 0;
+	right: 0;
+	left: 420px;
+	background: #E6E7E8;
+}
+.rightSidePanel{
+	width: calc(100% - 420px);
+	float: left;
+	padding: 47px 72px 60px;
+}
+.rightSidePanel h4{
+	font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.fileCon{
+	font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.fileCon label{
+	font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.fileInner{
+	width: 150px;
+	height: 150px;
+	border: solid 2px #E6E7E8;
+	border-radius: 50%;
+	overflow: hidden;
+	background: center no-repeat;
+	margin: 10px 0 30px;
+	transition: all linear 0.2s 0s;
+}
+.fileInner:hover{
+	box-shadow: 0 0 10px #ccc;
+	transition: all linear 0.2s 0s;
+}
+.fileInner input[type="file"]{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	opacity: 0;
+}
+
+
+.signUpForm .button{
+	float: right;
+	font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    width: 208px;
+    height: 54px;
+    background: #0288D1;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 40px;
+    margin-top: 60px;
+}
+.signUpForm button[disabled],.signUpForm button[disabled]:hover,.signUpForm button:focus{
+	background: #0288D1;
+    color: #fff;
+}
+.signUpForm button{
+	height: 45px;
+	color: #97A6AD;
+	border-color: #97A6AD;
+	text-transform: uppercase;
+	font-size: 12px;
+	line-height: 35px;
+}
+.signUpForm button.backBtn{
+	background: #FDFAFA;
+	color: #97A6AD;
+	border-color: #97A6AD;
+	height: 45px;
+	margin-right: 10px;
+}
+
+.signUpForm button:hover{
+	background: #075c8a;
+    color: #fff;
+}
+.signUpForm button.backBtn:hover{
+	background: #f1eeee;
+    color: #97A6AD;
+}
+.sidePanel ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-top: 53px;
+	display: inline-block;
+	position: relative;
+}
+.sidePanel ul li{
+	display: inline-block;
+    width: 49px;
+    height: 49px;
+    font-family: 'Poppins', sans-serif;
+    color: #97A6AD;
+    font-size: 16px;
+    line-height: 47px;
+    border: solid 2px #fff;
+    border-radius: 50%;
+    transition: all linear 0.2s 0s;
+}
+.sidePanel ul li.selected{
+	position: absolute;
+	border-color: #0288D1;
+}
+.sidePanel ul li.active{
+	border-color: #0288D1;
+}
+.sideBarContent{
+	padding: 120px 0 130px;
+	position: relative;
+}
+.sideBarContent h4{
+	font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #555555;
+}
+.sideBarContent p{
+	font-size: 16px;
+	line-height: 35px;
+	color: #97A6AD;
+}
+.sideBarFooter{
+	margin-bottom: 43px;
+}
+.sideBarFooter p{
+	font-size: 18px;
+	color: #97A6AD;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+
+}
+.sideBarContent:after,.sideBarContent:before{
+	content: attr(x);
+	position: absolute;
+	height: 3px;
+	width: 34px;
+	background: #97A6AD;
+	top: 40px;
+	left: 50%;
+	margin-left: -17px;
+}
+.sideBarContent:before{
+	top: auto;
+	bottom: 40px;
+}
+
+.signUpForm{
+	
+}
+.signUpForm .form-group{
+	margin-bottom: 15px;
+	position: relative;
+	overflow: auto;
+}
+.signUpForm .form-group .error-message{
+	position: absolute;
+    bottom: -30px;
+    color: red;
+}
+.signUpForm input[type="text"],.signUpForm input[type="email"],.signUpForm select{
+	height: 45px;
+	font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color: #97A6AD;
+    border: solid 2px #E6E7E8;
+    padding: 0 14px !important;
+    border-radius: 5px;
+    transition: all linear 0.2s 0s;
+    background: none;
+    font-weight: 300;
+}
+.signUpForm input[type="text"]:focus,.signUpForm input[type="email"]:focus,.signUpForm select:focus{
+	box-shadow: 0 0 10px #ccc;
+	outline: none;
+}
+
+.nameFields{
+	margin-bottom: 0;
+	margin-top: 40px;
+}
+.nameFields input[type="text"]{
+	width: 95%;
+}
+.nameFields div:nth-child(2) input[type="text"]{
+	float: right;
+}
+.selectBox{
+	overflow: auto;
+	position: relative;
+}
+.selectBox:after{
+	content: attr(x);
+    position: absolute;
+    width: 58px;
+    height: 56px;
+    background: #E6E7E8;
+    right: 82px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    pointer-events: none;
+    top: 2px;
+}
+.selectBox:before{
+	content: attr(x);
+	position: absolute;
+	border: solid 10px;
+	border-color: #6D6F7A transparent transparent transparent;
+	right: 100px;
+    top: 25px;
+    z-index: 1;
+    pointer-events: none;
+}
+.selectBox select{
+	width: calc(100% - 80px);
+	float: left;
+	margin-right: 20px;
+}
+.selectBox button{
+	width: 60px;
+	height: 60px;
+	border-radius: 5px;
+	background: no-repeat;
+	border: solid 2px #E6E7E8;
+	margin: 0;
+}
+.signUpForm .selectBox button{
+	color: #0288D1;
+    font-size: 42px;
+    padding: 11px !important;
+    line-height: 38px;
+    overflow: hidden;
+}
+.selectBox button:hover{
+	background: none;
+}
+.courceName{
+	margin: 0 -10px;
+	overflow: auto;
+	clear: both;
+}
+.courceName ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.courceName ul li{
+	width: calc(33.33% - 20px);
+	float: left;
+	padding: 20px;
+	border: solid 1px #E6E7E8;
+	border-radius: 3px;
+	margin: 10px;
+	text-align: center;
+}
+.courceName ul li h5{
+	font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #303030;
+    font-weight: 400;
+    margin-top: 0;
+}
+.courceName ul li p{
+	font-size: 16px;
+	color: #97A6AD;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.signUpForm hr{
+	margin: 40px 0 30px;
+}
+.total{
+	margin-top: 50px;
+}
+.total h4{
+	font-size: 26px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #c3bebe;
+}
+.total h4 span{
+	color: #555555;
+}
+
+
+.signupDetail{
+	padding: 20px 25px 30px;
+	border: solid 1px #E6E7E8;
+	border-radius: 5px;
+	overflow: auto;
+	margin-bottom: 30px;
+}
+.logoCon{
+	overflow: auto;
+	margin-bottom: 20px;
+}
+.logoCon .imageCon{
+	width: 88px;
+	height: 88px;
+	float: left;
+	min-height: 3px;
+}
+.logoCon .detailCon{
+	width: calc(100% - 98px);
+	margin-left: 10px;
+	float: left;
+}
+.logoCon .detailCon h5{
+	font-size: 18px;
+	color: #303030;
+	margin-bottom: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.logoCon .detailCon h6{
+	font-size: 18px;
+	color: #97A6AD;
+	margin-bottom: 5px;	
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.courceDetail{
+	padding: 20px 0;
+	border-top: solid 1px #E6E7E8;
+}
+.courceDetail ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.courceDetail ul li{
+	font-size: 18px;
+	color: #0288D1;	
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.courceDetail ul li.totalLabel{
+	margin-top: 10px;
+}
+.courceDetail ul li label{
+	color: #97A6AD;
+	display: inline-block;
+	width: 250px;
+}
+.courceDetail ul li span{
+	margin-right: 5px;
+	text-transform: capitalize;
+}
+.courceDetail ul li hr{
+	margin: 20px 0;
+	border-color: #E6E7E8;
+}
+
+.courceDetail ul li.adminDetail label{
+	float: left;
+}
+.courceDetail ul li.adminDetail span{
+	float: left;
+}
+.checkboxCon{
+	margin-bottom: 20px;
+}
+.checkboxCon .checkbox label{
+	font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #0288D1;
+    line-height: 43px;
+    margin-bottom: 30px;
+    padding: 0;
+    position: relative;
+}
+.checkboxCon .checkbox label span{
+	display: inline-block;
+	width: 43px;
+	height: 43px;
+	background: #E7ECED;
+	margin-right: 20px;
+	float: left;
+	transition: all linear 0.2s 0s;
+}
+.checkboxCon .checkbox label input[type="checkbox"]{
+	opacity: 0;
+}
+.checkboxCon .checkbox label input[type="checkbox"]:checked + span{
+	background: #0288D1;
+}
+.checkboxCon .checkbox:last-child{
+	margin-bottom: 0;
+}
+.checkboxCon .checkbox:last-child label{
+	margin-bottom: 0;
+}
+
+.final_step_con .signupPanel {
+	width: 668px;
+}
+.final_step{
+	padding: 104px 142px;
+	text-align: center;
+}
+.final_step h3{
+	font-size: 40px;
+	color: #303030;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+
+}
+.final_step p{
+	font-size: 16px;
+	color: #959597;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 75px;
+}
+.final_step button{
+	font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    width: 208px;
+    height: 54px;
+    background: #0288D1;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 40px;
+}
+.final_step button:hover{
+	background: #075c8a;
+    color: #fff;
+}
+
+.modalCon h3{
+	font-size: 36px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #303030;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+.modalCon h3 button{
+	padding: 0;
+    width: 40px;
+    margin-right: 10px;
+    font-size: 50px;
+    height: 51px;
+    line-height: 32px;
+    border: none;
+    text-align: left;
+    position: relative;
+    top: -4px;
+    color: #0288D1;
+}
+.modalCon p{
+	font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+	color: #959597;
+	line-height: 30px;
+}
+.modalCon p.hasMaxWidth{
+	max-width: 80%;
+}
+.modalCon p.otpText{
+	margin-bottom: 30px;
+	text-align: center;
+	font-weight: 400;
+}
+.modalCon p.otpText span{
+	color: #12cc12;
+}
+.modalCon p.otpText span.time{
+	color: #0288D1;
+}
+.confirmPopup .modal-dialog{
+	width: 667px;
+	border-radius: 12px;
+	margin: 40px 0;
+}
+.confirmPopup .modal-dialog .modal-content{
+	border-radius: 12px;
+	border: solid 5px #EFEFEF;
+	padding: 70px 64px;
+	box-shadow: none;
+}
+.confirmPopup .modal-dialog .modal-content .modal-body{
+	padding: 0;
+}
+.confirmForm{
+	margin-top: 60px;
+	position: relative;
+}
+.confirmForm label{
+	font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #303030;
+    display: block;
+
+}
+.confirmForm label a{
+	color: #0288D1;
+	cursor: pointer;
+}
+.confirmForm label a.disable_link{
+	opacity: 0.4;
+	pointer-events: none;
+}
+.confirmForm.loginForm label{
+
+}
+.confirmInputs{
+	overflow: -webkit-paged-y;
+	margin-bottom: 40px;
+}
+.confirmInputs .form-group{
+	width: 75px;
+	float: left;
+	margin-right: 15px;
+	position: relative;
+}
+.confirmInputs input[type="text"],.confirmInputs input[type="number"],.confirmInputs input[type="password"]{
+	text-align: center;
+	height: 54px;
+	border: solid 3px #E0E0E1;
+	border-radius: 3px;
+	font-size: 30px;
+	transition: all linear 0.2s 0s;
+	background: none;
+}
+.confirmInputs input[type="text"]:focus,.confirmInputs input[type="number"]:focus,.confirmInputs input[type="password"]:focus{
+	box-shadow: 0 0 10px #ccc;
+}
+.confirmInputs.loginForm input[type="text"],.confirmInputs.loginForm input[type="number"],.confirmInputs.loginForm input[type="password"]{
+	text-align: left;
+	font-size: 22px;
+}
+.loginForm.confirmInputs .form-group{
+	width: 100%;
+	margin-bottom: 40px;
+}
+.confirmInputs .form-group:last-child{
+	margin-right: 0;
+}
+.loginForm.confirmInputs .form-group:last-child{
+	margin-bottom: 0;
+}
+.confirmForm button{
+	display: block;
+	width: 100%;
+	height: 56px;
+	background: #0288D1;
+	color: #fff;
+	font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    border-radius: 3px;
+}
+.confirmForm button.notActive{
+	background: #959597;
+	pointer-events: none;
+}
+.modal-backdrop{
+	background: rgba(255,255,255,1);
+	opacity: 0.9;
+}
+.modal-backdrop.in{
+	opacity: 0.85;
+}
+.modalCon p.otpError{
+	position: absolute;
+	bottom: 65px;
+	width: 100%;
+	text-align: center;
+	color: red;
+	margin: 0;
+}
+.modalCon p.error-message{
+	position: absolute;
+	bottom: -28px;
+	color: red;
+	margin: 0;
+
+}
+.errorTerms{
+	clear: both;
+    bottom: 7px;
+    position: absolute;
+    color: red;
+    font-size: 15px;
+    left: 50%;
+}
+.navbar-brand {
+	float: left;
+	padding: 16.5px 10px;
+	font-size: 16px;
+	font-family: 'Poppins', sans-serif;
+	line-height: 30px;
+	vertical-align: middle;	
+	height:auto;
+
+}
+.navbar-brand img, .navbar-brand span{
+		display: inline-block;		
+		margin-right: 10px;
+		vertical-align: middle;
+		color:#303030;
+}
+.navbar-brand img{
+	height: 30px;
+}
+.navbar-brand span{
+	font-weight: 500;
+	height: 23px;
+}
+.videoPopup {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,.8);
+    top: 71px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+.videoPopup iframe{
+	width: 90%;
+    height: 90%;
+    margin: 5%;
+}
+
+.videoPopup a.crossBtn {
+    top: 83px;
+    right: 20px;
+    position: fixed;
+    margin: 0;
+}
+
+button.close.modalClose{
+	width: 40px;
+    height: 40px;
+    font-size: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    font-weight: 200;
+    padding: 0;
+    color: #0288D1;
+    opacity: 0.8;
+    transition: all ease-out 0.3s 0s;
+}
+button.close.modalClose i{
+	width: 40px;
+    height: 40px;
+    text-align: center;
+    display: block;
+}
+button.close.modalClose:hover{
+	transform: rotate(90deg);
+}
+
+.helpUs{
+	margin-top: -50px;
+    background: #0288D1;
+    padding: 100px 10px;
+}
+.helpForm{
+	max-width: 836px;
+    margin: auto;
+}
+.mainContainer .helpForm h2{
+	text-align: center;
+	color: #fff
+}
+.helpForm input[type="text"]{
+	height: 60px;
+	font-size: 16px;
+	border-radius: 5px;
+	padding: 10px 20px;
+	transition: all ease-out 0.3s 0s;
+}
+.helpForm input[type="text"]:focus{
+	box-shadow: 0 0 10px #ccc;
+}
+
+.helpForm .form-group{
+	margin-bottom: 0;
+}
+.helpTabs .nav-tabs{
+	background: none;
+	text-align: center;
+}
+.helpTabs .nav-tabs > li{
+	width: 300px;
+	font-size: 24px;
+	color: #5B5E6D;
+	display: inline-block;
+	float: none;
+	margin: 0 70px;
+}
+.helpTabs .nav-tabs > li > a{
+	font-size: 20px;
+	color: #5B5E6D;
+	font-weight: 400;
+	font-family: 'Poppins', sans-serif;
+	text-transform: capitalize;
+	padding: 20px 40px;
+	border-bottom: solid 3px #fff;
+	background: none;
+
+}
+.helpTabs .nav-tabs > li > a:hover{
+	background: none;
+	color: #5B5E6D;
+	opacity: 0.8;
+}
+.helpTabs .nav-tabs > li.active > a {
+	border-color: #0288D1;
+	color: #0288D1;
+}
+.nav-tabs > li.active > a:hover,.nav-tabs > li.active > a:focus{
+	border-bottom: solid 3px #0288D1;
+	border-color: #0288D1;
+	color: #0288D1;
+}
+.helpTabs .tab-pane{
+	background: #F2F2F2;
+	padding: 50px;
+}
+
+.eventPanel{
+	width: 570px;
+}
+.eventPanel .rightSidePanel{
+	width: 100%;
+	padding: 27px 40px 30px;
+}
+.eventPanel .rightSidePanel:after{
+	display: none;
+}
+
+.eventPanel .signUpForm input[type="text"], .eventPanel .signUpForm input[type="email"], .eventPanel .signUpForm select{
+	height: 45px;
+}
+.eventPanel .signUpForm .button{
+	margin-top: 10px;
+}
+.eventPanel .fileInner{
+	width: 100%;
+    border-radius: 0;
+    height: 210px;
+    background-position: center 70%;
+    background-size: 40px;
+}
+.eventPanel .fileCon{
+	position: relative;
+}
+.eventPanel .fileInner input[type="file"]{
+	height: 210px;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	left: 0;
+}
+.eventPanel .fileInner label{
+	display: block;
+    text-align: center;
+    font-size: 14px;
+    line-height: 25px;
+    color: #97A6AD;
+    padding: 40px 10px 20px;
+    width: 70%;
+    margin: auto;
+    border-bottom: solid 1px #E6E7E8;
+}
+.topTabs{
+	text-align: center;
+}
+.topTabs ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+	-webkit-box-shadow: 0 0 30px rgba(0,0,0,0.16);
+    box-shadow: 0 0 30px rgba(0,0,0,0.16);
+    margin: 30px 0 20px;	
+}
+.topTabs ul li{
+	display: inline-block;
+	width: 427px;
+	border-bottom: solid 4px #fff;
+	padding: 25px 10px;
+	font-size: 20px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	color: #97A6AD;
+	text-transform: uppercase;
+}
+.topTabs ul li.active{
+	border-color: #0288D1;
+	font-weight: 500;
+	color: #303030;
+}
+
+.signUpForm .selectBox .form-group{
+	    width: calc(100% - 80px);
+    float: left;
+    margin-right: 20px;
+}
+.eventPanel .signUpForm .selectBox button{
+	margin-top: 0;
+	height: 45px;
+	line-height: 22px;
+    font-size: 28px;
+}
+.eventPanel .selectBox:after{
+	display: none;
+}
+.eventPanel .selectBox:before{
+	display: none;
+}
+.eventPanel .signUpForm hr{
+	margin: 10px 0 10px;
+}
+.eventPanel .courceName ul li{
+	width: calc(100% - 20px);
+    margin: 0;
+    margin-left: 10px;
+    text-align: left;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+}
+.mainMenu.navbar-default .navbar-nav.rightMenu>li.profileMenu>a{
+	width: 46px;
+    height: 46px;
+    background: red;
+    display: inline-block;
+    padding: 0;
+    border-radius: 50%;
+    margin: 8px 0;
+    overflow: hidden;
+}
+
+.mainMenu.navbar-default .navbar-nav.rightMenu>li.profileMenu>a .caret{
+	display: none;
+}
+.mainMenu.navbar-default .navbar-nav.rightMenu>li.profileMenu>a img{
+	width: 100%;
+}
+.profileMenu .dropdown-menu{
+	padding: 0;
+}
+.profileMenu .dropdown-menu > li > a{
+	font-size: 15px;
+	color: #737272;
+	padding: 10px;
+}
+.profileMenu .dropdown-menu > li > a span{
+	margin-right: 10px;
+}
+
+.mainMenu.navbar-default .navbar-nav.profileMenuLeft>li>a{
+	font-size: 20px;
+	color: rgb(11, 141, 211);
+}
+.searchBox input[type="text"]{
+	width: 662px;
+	border-radius: 25px;
+    padding: 0 30px;
+    border: solid 1px #E6E7E8;
+    color: #97A6AD;
+    font-size: 15px;
+    background: none;
+    margin-top: 14px;
+    margin-right: 100px;
+    transition: all ease-out 0.3s 0s;
+}
+.searchBox input[type="text"]:focus{
+	box-shadow: 0 0 10px #ccc;
+}
+.navbar-nav > li.menuDropDown{
+	background: none;
+}
+.mainMenu.navbar-default .navbar-nav.profileMenuLeft>li.menuDropDown>a{
+	background: none;
+}
+.mainMenu.navbar-default .navbar-nav.profileMenuLeft>li.menuDropDown.open>a{
+	background: #f7f4f4;
+}
+.mainMenu.navbar-default .navbar-nav.profileMenuLeft>li.menuDropDown>a .caret{
+	display: none;
+}
+.navbar-nav > li.menuDropDown > .dropdown-menu{
+	width: 320px;
+	padding: 0;
+}
+.navbar-nav > li.menuDropDown > .dropdown-menu li{
+	width: 33.33%;
+	float: left;
+}
+.navbar-nav > li.menuDropDown .dropdown-menu > li a{
+	padding: 20px;
+	text-align: center;
+	font-size: 15px;
+	color: rgb(136, 136, 136);
+}
+.navbar-nav > li.menuDropDown .dropdown-menu > li a:hover,
+.navbar-nav > li.menuDropDown .dropdown-menu > li a:focus,
+.profileMenu .dropdown-menu > li > a:hover,
+.profileMenu .dropdown-menu > li > a:focus{
+	background: #f5f4f4;
+}
+.navbar-nav > li.menuDropDown .dropdown-menu > li a span{
+	display: block;
+	font-size: 25px;
+	color: rgb(11, 141, 211);
+	margin-bottom: 5px;
+}
+.menuDropDown{
+
+}
+
+.newsPanel{
+	width: 1280px;
+}
+
+.mainMenu.navbar-default .navbar-nav.profileMenuLeft>li.listing>a .caret{
+	display: none;
+}
+.mainMenu.navbar-default .navbar-nav.profileMenuLeft>li.listing .dropdown-menu li{
+	width: 100%;
+    border-bottom: solid 1px #e7e9ec;
+}
+.mainMenu.navbar-default .navbar-nav.profileMenuLeft>li.listing .dropdown-menu li.header{
+	background: #f5f1f1;
+    color: #333;
+    padding: 10px;
+    font-size: 13px;
+    height: auto;
+}
+.mainMenu.navbar-default .navbar-nav.profileMenuLeft>li.listing .dropdown-menu li.footer{
+	text-align: center;
+	margin: 0;
+    padding: 0;
+}
+.mainMenu.navbar-default .navbar-nav.profileMenuLeft>li.listing .dropdown-menu li:last-child {
+    border-bottom: none;
+}
+
+.listing .menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+    max-height: 170px;
+}
+.listing .dropdown-menu > li .menu a{
+	background: none;
+    color: #b5b1b1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    padding: 8px 10px;
+    display: block;
+    font-size: 14px;
+    transition: all ease-out 0.3s 0s;
+}
+.listing .dropdown-menu > li .menu a:hover{
+	background: #f9f8f8;
+}
+.listing .dropdown-menu > li.footer > a{
+	padding: 10px;
+	color: #333;
+}
+.listing .dropdown-menu > li.footer > a:hover{
+	background: #f9f8f8;
+}
+
+.navbar-nav > li.listing > .dropdown-menu{
+	width: 300px;
+	padding: 0;
+}
+.mainMenu.navbar-default .navbar-nav.profileMenuLeft>li.listing>a{
+	background: none;
+}
+.mainMenu.navbar-default .navbar-nav.profileMenuLeft>li.listing.open>a{
+	background: #f7f4f4;
+}
+
+.draftTools{
+	margin: -27px -40px 10px;
+}
+.signUpForm .DraftEditor-root{
+	border: solid 1px #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+}
+.signUpForm .public-DraftEditor-content{
+
+    min-height: 450px;
+}
+.signUpForm .public-DraftStyleDefault-block{
+
+}
+.eventPanel .signUpForm .tools button.button{
+	float: none;
+	float: left;
+	width: 50px;
+	height: 40px;
+	border-radius: 4px;
+	margin: 0;
+	background: none;
+	color: #000;
+	border-color: #fff;
+	outline: none;
+}
+.eventPanel .signUpForm .tools button.bold{
+	font-weight: bold;
+}
+.eventPanel .signUpForm .tools button.italic{
+	font-style: italic;
+}
+.eventPanel .signUpForm .tools button.underline{
+	text-decoration: underline;
+}
+.tools{
+	width: 100%;
+	overflow: auto;
+	border-top: solid 4px #000;
+}
+
+.skipCon{
+	clear: both;
+    width: 150px;
+    float: right;
+    margin-top: 30px;
+}
+.skipCon a{
+	text-decoration: underline;
+}
+.skipCon p{
+	color: #97A6AD;
+}
+
+.eventPanel .signUpForm input.rbt-input-main {
+    height: 20px;
+}
+
+
+@media (min-width: 1024px){
+	
+}
+@media (max-width: 991px){
+	.nameFields input[type="text"]{
+		width: 100%;
+	}	
+	.sidePanel{
+		width: 320px;
+		padding: 0 30px;	
+	}
+	.rightSidePanel:after{
+		left: 320px;
+	}
+	.rightSidePanel{
+		width: calc(100% - 320px);
+		padding: 27px 32px 40px
+	}
+	.rightSidePanel h4{
+		font-size: 26px;
+	}
+}
+@media (max-width: 768px){
+	.sidePanel{
+		width: 100%;
+	}
+	.sideBarContent, .sideBarFooter, .rightSidePanel:after{
+		display: none;
+	}
+	.rightSidePanel{
+		width: 100%;
+	}
+	.rightSidePanel h4{
+		font-size: 22px;
+	}
+	.nameFields input[type="text"]{
+		height: 40px;
+	}
+	.signUpForm button, .signUpForm button.backBtn{
+		height: 40px;
+		line-height: 24px;	
+	}
+}
