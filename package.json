@@ -1,8 +1,7 @@
 {
-  "name": "web",
+  "name": "multistep-signup",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:3003/",
   "homepage": "https://graphicskart.github.io/multistep-signup",
   "dependencies": {
     "bootstrap": "^4.0.0",
