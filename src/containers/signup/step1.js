@@ -16,6 +16,7 @@ export default class Signup extends React.Component{
 	}
 	
     onSubmit(){
+    	if (this.state.step === 4) { return}
     	this.setState({step : (this.state.step + 1)})	
 	}
 
